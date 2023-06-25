@@ -1,11 +1,7 @@
 package com.jsh.mybatis.member.dao;
 
-public class MemberDao {
+public interface MemberDao {
 
-	
-	public void joinMemberDao(String mid, String mpw, String mname, String memail) {
-		
-		int abc;
-		
-	}
+	public void joinMemberDao(String mid, String mpw, String mname, String memail);
+	public int loginDao(String mid, String mpw);
 }
